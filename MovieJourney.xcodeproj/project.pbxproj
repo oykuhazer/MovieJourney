@@ -108,32 +108,25 @@
 			path = Module;
 			sourceTree = "<group>";
 		};
-		525E6C452A72F2E000A110D2 /* ModuleView */ = {
+		525E6C452A72F2E000A110D2 /* ViewModule */ = {
 			isa = PBXGroup;
 			children = (
 				52D034FC2A72B23100EC9621 /* MoviesViewModule.swift */,
 				52D035022A72B40100EC9621 /* AddedListViewModel.swift */,
 				52D035082A72B56000EC9621 /* GraphViewModel.swift */,
 			);
-			path = ModuleView;
+			path = ViewModule;
 			sourceTree = "<group>";
 		};
 		525E6C462A72F30000A110D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				52D0350C2A72B5B100EC9621 /* CustomPieChartView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		525E6C472A72F31400A110D2 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
 				52D034FE2A72B25600EC9621 /* moviesViewController.swift */,
 				52D035042A72B46200EC9621 /* AddedListViewController.swift */,
 				52D0350A2A72B58600EC9621 /* GraphViewController.swift */,
+				52D0350C2A72B5B100EC9621 /* CustomPieChartView.swift */,
 			);
-			path = ViewController;
+			path = View;
 			sourceTree = "<group>";
 		};
 		52D034B92A72AD2F00EC9621 = {
@@ -161,8 +154,7 @@
 			children = (
 				525E6C442A72F2B700A110D2 /* Module */,
 				525E6C462A72F30000A110D2 /* View */,
-				525E6C452A72F2E000A110D2 /* ModuleView */,
-				525E6C472A72F31400A110D2 /* ViewController */,
+				525E6C452A72F2E000A110D2 /* ViewModule */,
 				52D034CB2A72AD2F00EC9621 /* Main.storyboard */,
 				52D034CE2A72AD3000EC9621 /* Assets.xcassets */,
 				52D034D02A72AD3000EC9621 /* LaunchScreen.storyboard */,
